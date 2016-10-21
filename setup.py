@@ -48,6 +48,7 @@ setup(
         'Flask-Moment>=0.5.1',
         'Flask-Pure>=0.3',
         'Flask-Script>=2.0.5',
+        'Flask-SimpleMDE>=0.3.0',
         'Flask-SQLAlchemy>=2.1',
         'Flask-WTF>=0.13.1',
         'hy>=0.11.1',

@@ -8,6 +8,7 @@
   [flask-gravatar [Gravatar]]
   [flask-moment [Moment]]
   [flask-pure [Pure]]
+  [flask-simplemde [SimpleMDE]]
   [hyer.dsl [config-from-pyfile register-blueprint]]
   [hyoid.user [user init-app :as user-init]]
   [hyoid.forum [forum]]
@@ -24,6 +25,7 @@
     user-init
     Moment
     Pure
+    SimpleMDE
     (register-blueprint user :url-prefix '/u)
     (register-blueprint forum :url-prefix '/t)
     (Gravatar :default 'identicon)))
